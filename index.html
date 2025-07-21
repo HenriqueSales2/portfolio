@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Henrique Sales - Portfólio Java</title>
+  <style>
+    body {
+      margin: 0;
+      background: radial-gradient(ellipse at bottom, #0b0c1c 0%, #000 100%);
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      overflow-x: hidden;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px 20px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+    p.subtitle {
+      color: #aaa;
+      font-size: 1.2em;
+    }
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    .project {
+      background: rgba(255,255,255,0.05);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: transform 0.3s ease;
+    }
+    .project:hover {
+      transform: translateY(-5px);
+    }
+    a {
+      color: #7ecfff;
+      text-decoration: none;
+    }
+    .space {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      background: url('https://raw.githubusercontent.com/HenriqueSales2/assets/main/space-stars.gif') repeat;
+      background-size: cover;
+      opacity: 0.4;
+      animation: float 100s linear infinite;
+    }
+    @keyframes float {
+      from { background-position: 0 0; }
+      to { background-position: 10000px 10000px; }
+    }
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="space"></div>
+  <header>
+    <h1>Henrique Sales</h1>
+    <p class="subtitle">Desenvolvedor Java Júnior | Backend | Spring Boot</p>
+  </header>
+
+  <section>
+    <h2>Projetos Java</h2>
+
+    <div class="project">
+      <h3><a href="https://github.com/HenriqueSales2/senai_api_rest" target="_blank">API REST com Spring Boot</a></h3>
+      <p>API backend desenvolvida com arquitetura MVC, contendo endpoints RESTful, DTOs, validação de dados, e conexão com banco de dados. Organizada com camadas Controller, Service e Repository.</p>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/HenriqueSales2/java-exercicios" target="_blank">Exercícios Java e Lógica</a></h3>
+      <p>Conjunto de exercícios práticos focados em fundamentos de programação, POO com Java, classes, métodos, e boas práticas de escrita de código.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Contato: henriqueosales19@gmail.com | <a href="https://github.com/HenriqueSales2" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/henriquessales/" target="_blank">LinkedIn</a></p>
+  </footer>
+</body>
+</html>
